@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:background="@color/colorAccent"
+    android:padding="16dp"
+    android:gravity="bottom"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tracking App"
+        android:textSize="26sp"
+        android:paddingTop="3dp"
+        android:textColor="@android:color/white"
+        android:textAppearance="@style/ThemeOverlay.AppCompat.Dark"/>
+
+    <ImageView
+        android:id="@+id/user_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@android:drawable/sym_def_app_icon"/>
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+    <TextView
+        android:id="@+id/user_firstname"
+        android:paddingTop="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User name"
+        android:paddingRight="2dp"
+        android:textSize="18sp"/>
+       <TextView
+           android:id="@+id/user_lstname"
+           android:paddingTop="3dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="User name"
+           android:textSize="18sp"/>
+</LinearLayout>
+
+    <TextView
+        android:id="@+id/user_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="abc@gmail.com"
+        android:textSize="20sp"
+        android:paddingTop="1dp"
+        android:textColor="@android:color/white"
+        android:textAppearance="@style/ThemeOverlay.AppCompat.Dark"/>
+</LinearLayout>
